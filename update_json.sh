@@ -2,7 +2,7 @@
 proxy_addr="https://ghfast.top/"
 
 # https://github.com/intro-skipper/intro-skipper
-manifest="https://raw.githubusercontent.com/intro-skipper/intro-skipper/refs/heads/10.10/manifest.json"
+manifest="https://github.com/intro-skipper/manifest/blob/main/10.11/manifest.json"
 
 curl $manifest -o intro-skipper-manifest.json
 

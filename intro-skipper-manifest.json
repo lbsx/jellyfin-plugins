@@ -5,24 +5,32 @@
         "overview": "Automatically detect and skip intros in television episodes",
         "description": "Analyzes the audio of television episodes and detects introduction sequences.",
         "owner": "AbandonedCart, rlauuzo, jumoog (forked from ConfusedPolarBear)",
-        "category": "Intro-Skipper",
-        "imageUrl": "https://ghfast.top/https://raw.githubusercontent.com/intro-skipper/intro-skipper/10.10/images/logo.png",
+        "category": "MoviesAndShows",
+        "imageUrl": "https://ghfast.top/https://raw.githubusercontent.com/intro-skipper/manifest/main/images/intro-skipper/logo.png",
         "versions": [
             {
-                "version": "1.10.10.15",
-                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/intro-skipper/releases/tag/10.10/v1.10.10.15)\n",
-                "targetAbi": "10.10.5.0",
-                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/intro-skipper/releases/download/10.10/v1.10.10.15/intro-skipper-v1.10.10.15.zip",
-                "checksum": "2d2bf06a6f8073222887f182e988ac18",
-                "timestamp": "2025-02-08T19:25:55Z"
+                "version": "1.10.11.3",
+                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.3)\n",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.3/intro-skipper-v1.10.11.3.zip",
+                "checksum": "3aa5c5be47ee2926c6cafd9baa9a69fe",
+                "timestamp": "2025-09-28T18:37:48Z"
             },
             {
-                "version": "1.10.10.14",
-                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/intro-skipper/releases/tag/10.10/v1.10.10.14)\n",
-                "targetAbi": "10.10.4.0",
-                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/intro-skipper/releases/download/10.10/v1.10.10.14/intro-skipper-v1.10.10.14.zip",
-                "checksum": "393d3a557f99c267c11492e936c7aebb",
-                "timestamp": "2025-01-22T17:17:07Z"
+                "version": "1.10.11.2",
+                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.2)\n",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.2/intro-skipper-v1.10.11.2.zip",
+                "checksum": "b21f2cb86f34b022bbdbe1615d1b1cb5",
+                "timestamp": "2025-06-17T18:20:52Z"
+            },
+            {
+                "version": "1.10.11.1",
+                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.1)\n",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.1/intro-skipper-v1.10.11.1.zip",
+                "checksum": "8894f8a622ca5907ae805f6d3b12d604",
+                "timestamp": "2025-06-09T19:05:04Z"
             }
         ]
     },
@@ -32,37 +40,9 @@
         "overview": "Create .edl files from Media Segments",
         "description": "These files can be used by Kodi and other players to skip content like commercials and are stored next to your media. Therefore you need write access.",
         "owner": "Intro Skipper (forked from Endrl)",
-        "category": "Intro-Skipper",
-        "imageUrl": "https://ghfast.top/https://raw.githubusercontent.com/intro-skipper/jellyfin-plugin-edl/master/images/logo.png",
-        "versions": [
-            {
-                "version": "0.4.1.0",
-                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/jellyfin-plugin-edl/blob/10.10.2/CHANGELOG.md)",
-                "targetAbi": "10.10.3.0",
-                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/jellyfin-plugin-edl/releases/download/0.4.1-00cd9ce/Jellyfin.Plugin.Edl-0.4.1.zip",
-                "checksum": "e72d4415912ca2b0afcdcff5aa24ceb3",
-                "timestamp": "2025-01-17T21:08:32Z"
-            }
-        ]
-    },
-    {
-        "guid": "6F0AAAB5-E251-4A6D-B8D5-BC8C65222051",
-        "name": "MediaSegments API",
-        "overview": "Create and delete Media Segments",
-        "description": "Provide an extended HTTP API to create and delete MediaSegments",
-        "owner": "Intro Skipper (forked from Endrl)",
-        "category": "Intro-Skipper",
-        "imageUrl": "https://ghfast.top/https://raw.githubusercontent.com/intro-skipper/jellyfin-plugin-ms-api/master/images/logo720.png",
-        "versions": [
-            {
-                "version": "1.0.2",
-                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/jellyfin-plugin-ms-api/blob/10.10.2/CHANGELOG.md)",
-                "targetAbi": "10.10.2.0",
-                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/jellyfin-plugin-ms-api/releases/download/1.0.2-125cb33/Jellyfin.Plugin.MediaSegmentsApi-1.0.2.zip",
-                "checksum": "608b8512e70d48799ec03d6245c8e2ad",
-                "timestamp": "2025-02-13T07:46:36Z"
-            }
-        ]
+        "category": "MoviesAndShows",
+        "imageUrl": "https://ghfast.top/https://raw.githubusercontent.com/intro-skipper/manifest/main/images/jellyfin-plugin-edl/logo.png",
+        "versions": []
     },
     {
         "guid": "e22fb8f5-bc98-4f76-9be4-87de302a97ea",
@@ -70,17 +50,8 @@
         "overview": "Automatically convert Jellyfin media segments into Matroska chapter XML files for enhanced media navigation",
         "description": "This plugin converts existing media segments (like Intros and Outros) into standardized Matroska chapter XML files",
         "owner": "Intro Skipper",
-        "category": "Intro-Skipper",
-        "imageUrl": "https://ghfast.top/https://raw.githubusercontent.com/intro-skipper/jellyfin-plugin-ms-chapter/master/images/logo.png",
-        "versions": [
-            {
-                "version": "0.4.1.0",
-                "changelog": "- See the full changelog at [GitHub](https://ghfast.top/https://github.com/intro-skipper/jellyfin-plugin-ms-chapter/blob/master/CHANGELOG.md)",
-                "targetAbi": "10.10.3.0",
-                "sourceUrl": "https://ghfast.top/https://github.com/intro-skipper/jellyfin-plugin-ms-chapter/releases/download/0.4.1-e474d12/ChapterCreator-0.4.1.zip",
-                "checksum": "7d48a7dc8cd5b9cfa92b995b047328df",
-                "timestamp": "2025-01-11T14:16:00Z"
-            }
-        ]
+        "category": "MoviesAndShows",
+        "imageUrl": "https://ghfast.top/https://raw.githubusercontent.com/intro-skipper/manifest/main/images/jellyfin-plugin-ms-chapter/logo.png",
+        "versions": []
     }
 ]

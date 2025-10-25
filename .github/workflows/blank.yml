@@ -1,0 +1,30 @@
+name: Update with Latest Manifest
+
+on:
+  workflow_dispatch: # 允许手动触发
+  schedule:
+    - cron: '0 6 * * 3' 
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout your repository
+        uses: actions/checkout@v3
+
+      - name: Get the latest directory name from intro-skipper/manifest
+        id: get_latest_dir
+        run: |
+          # 克隆 manifest 仓库到一个临时目录
+          git clone https://github.com/intro-skipper/manifest.git manifest_temp
+          # 进入该目录并找出最新的目录名（这里假设目录是按版本号或日期排序的）
+          # 然后设置为一个输出变量
+          LATEST_DIR=$(cd manifest_temp && ls -d */| grep '^[0-9]' | sort -V | tail -n 1 | sed 's/\///')
+          echo "latest_dir=$LATEST_DIR" >> $GITHUB_OUTPUT
+          # 删除临时目录
+          rm -rf manifest_temp
+
+      - name: Run update.sh with the latest directory name
+        run: |
+          chmod +x ./update_json.sh
+          ./update_json.sh ${{ steps.get_latest_dir.outputs.latest_dir }}
